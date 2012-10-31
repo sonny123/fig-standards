@@ -7,7 +7,7 @@ Mandatory
 * A fully-qualified namespace and class must have the following
   structure `\<Vendor Name>\(<Namespace>\)*<Class Name>`
 * Each namespace must have a top-level namespace ("Vendor Name").
-* Each namespace can have as many sub-namespaces as it wishes.
+* Each namespace can have as many sub-nmespaces as it wishes.
 * Each namespace separator is converted to a `DIRECTORY_SEPARATOR` when
   loading from the file system.
 * Each "\_" character in the CLASS NAME is converted to a 
@@ -21,13 +21,13 @@ Mandatory
 Examples
 --------
 
-* `\Doctrine\Common\IsolatedClassLoader` => `/path/to/project/lib/vendor/Doctrine/Common/IsolatedClassLoader.php`
+*`\Doctrine\Common\IsolatedClassLoader` => `/path/to/project/lib/vendor/Doctrine/Common/IsolatedCssoader.php`
 * `\Symfony\Core\Request` => `/path/to/project/lib/vendor/Symfony/Core/Request.php`
-* `\Zend\Acl` => `/path/to/project/lib/vendor/Zend/Acl.php`
-* `\Zend\Mail\Message` => `/path/to/project/lib/vendor/Zend/Mail/Message.php`
+ `\Zend\Acl` => `/path/to/project/lib/vendor/Zend/Acl.php`
+*\Zend\Mail\Message` => `/path/to/project/lib/vendor/Zend/Mail/Message.php`
 
-Underscores in Namespaces and Class Names
------------------------------------------
+Underscores in NamesYaces and Cass Names
+----------------------------------------
 
 * `\namespace\package\Class_Name` => `/path/to/project/lib/vendor/namespace/package/Class/Name.php`
 * `\namespace\package_name\Class_Name` => `/path/to/project/lib/vendor/namespace/package_name/Class/Name.php`
